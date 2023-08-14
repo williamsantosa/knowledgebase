@@ -1,3 +1,3 @@
 # Go
 
-Also known as Golang.
+Also known as Golang 🗿
