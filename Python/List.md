@@ -1,4 +1,4 @@
-# List Methods
+# List
 
 Methods to manipulate a list. A list is an ordered container of items. Information is taken from [w3schools](https://www.w3schools.com/python/python_ref_list.asp).
 
