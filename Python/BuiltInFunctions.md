@@ -1,5 +1,7 @@
 # General Methods
 
+Located [here](https://docs.python.org/3/library/functions.html#any).
+
 ## sort
 
 Changes the values in the list_values. Has key and reverse parameter. Key is the thing it'll sort by (takes input of function), `reverse=True` means descending.
