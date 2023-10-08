@@ -134,12 +134,12 @@ For the last populated itemset $L_3$, we take the example of frequent itemset $\
 
 Possible rules and its confidence:
 
-- $\text{Confidence}(l_1 \cup l_2 \rightarrow l_3) = \text{Sup}(\frac{l_1 \cup l_2 \cup l_3}{l_1 \cup l_2}) = \frac{2}{4} \cdot 100 = 50\%$
-- $\text{Confidence}(l_1 \cup l_3 \rightarrow l_2) = \text{Sup}(\frac{l_1 \cup l_2 \cup l_3}{l_1 \cup l_3}) = \frac{2}{4} \cdot 100 = 50\%$
-- $\text{Confidence}(l_2 \cup l_3 \rightarrow l_1) = \text{Sup}(\frac{l_1 \cup l_2 \cup l_3}{l_2 \cup l_3}) = \frac{2}{4} \cdot 100 = 50\%$
-- $\text{Confidence}(l_1 \rightarrow l_2 \cup l_3) = \text{Sup}(\frac{l_1 \cup l_2 \cup l_3}{l_1}) = \frac{2}{6} \cdot 100 = 33\%$
-- $\text{Confidence}(l_2 \rightarrow l_1 \cup l_3) = \text{Sup}(\frac{l_1 \cup l_2 \cup l_3}{l_2}) = \frac{2}{7} \cdot 100 = 28\%$
-- $\text{Confidence}(l_3 \rightarrow l_1 \cup l_2) = \text{Sup}(\frac{l_1 \cup l_2 \cup l_3}{l_3}) = \frac{2}{6} \cdot 100 = 33\%$
+- $\text{Confidence}(l_1 \cup l_2 \rightarrow l_3) = \frac{\text{Sup}(l_1 \cup l_2 \cup l_3)}{\text{Sup}(l_1 \cup l_2)} = \frac{2}{4} \cdot 100 = 50\%$
+- $\text{Confidence}(l_1 \cup l_3 \rightarrow l_2) = \frac{\text{Sup}(l_1 \cup l_2 \cup l_3)}{\text{Sup}(l_1 \cup l_3)} = \frac{2}{4} \cdot 100 = 50\%$
+- $\text{Confidence}(l_2 \cup l_3 \rightarrow l_1) = \frac{\text{Sup}(l_1 \cup l_2 \cup l_3)}{\text{Sup}(l_2 \cup l_3)} = \frac{2}{4} \cdot 100 = 50\%$
+- $\text{Confidence}(l_1 \rightarrow l_2 \cup l_3) = \frac{\text{Sup}(l_1 \cup l_2 \cup l_3)}{\text{Sup}(l_1)} = \frac{2}{6} \cdot 100 = 33\%$
+- $\text{Confidence}(l_2 \rightarrow l_1 \cup l_3) = \frac{\text{Sup}(l_1 \cup l_2 \cup l_3)}{\text{Sup}(l_2)} = \frac{2}{7} \cdot 100 = 28\%$
+- $\text{Confidence}(l_3 \rightarrow l_1 \cup l_2) = \frac{\text{Sup}(l_1 \cup l_2 \cup l_3)}{\text{Sup}(l_3)} = \frac{2}{6} \cdot 100 = 33\%$
 
 Strong association rules (50% confidence rate):
 
